@@ -1,0 +1,268 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+/* Header */
+
+.head {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.header_text {
+  padding-top: 5px;
+
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.header_RF {
+  padding-top: 5px;
+
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.header_phone {
+  font-size: 11px;
+  line-height: 1.5;
+  color: #000000;
+}
+
+.rows {
+  margin-top: 30px;
+}
+
+/* MAIN */
+
+/* NAVBAR */
+
+.main_header_nav_bar {
+  font-size: 14px;
+  line-height: 1.7;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.main_header_nav_bar_sale {
+  font-size: 14px;
+  line-height: 1.7;
+  text-transform: uppercase;
+  color: #ff7b92;
+}
+
+.main_header {
+  padding-bottom: 30px;
+}
+
+.block_buyse {
+  margin-left: auto;
+}
+
+.input[search] {
+  width: 100px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+.input[search]:focus {
+  width: 100%;
+}
+
+.header_logo_login {
+  position: relative;
+  display: inline;
+}
+
+.header_login_text {
+  display: flex;
+  font-size: 12px;
+  padding-top: 7px;
+  color: #696868;
+}
+
+/* SLIDER */
+
+.slider {
+  position: relative;
+}
+
+.slick-list {
+  margin-left: 21%;
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+}
+
+.slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider .slick-dots li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+.slider .slick-dots button {
+  font-size: 0;
+  width: 10px;
+  height: 15px;
+  background-color: #ffffff;
+  border: none;
+  border: 0.75px solid #ffd9df;
+  border-radius: 50%;
+}
+
+.slider .slick-dots li.slick-active button {
+  background-color: #ffd9df;
+  border: 1px solid #ffd9df;
+}
+
+.news_suptitle {
+  font-size: 14px;
+  line-height: 1.9;
+
+  color: #ff7b92;
+}
+.choice_suptitle {
+  font-size: 14px;
+  line-height: 1.9;
+
+  color: #000000;
+}
+
+.blog_news_items {
+  padding: 0;
+  margin-top: 55px;
+  margin-bottom: 80px;
+}
+
+.blog_items {
+  margin-bottom: 60px;
+}
+
+.price {
+  padding-top: 30px;
+}
+
+.blog_news_text {
+  font-size: 12px;
+  line-height: 1.6;
+
+  color: #000000;
+}
+
+.quantity {
+  padding-top: 10px;
+}
+
+.btn-show_more {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btn-show_more_text {
+  font-size: 12px;
+  line-height: 1.6;
+  text-decoration-line: underline;
+
+  color: #000000;
+}
+
+.manicure {
+  margin-top: 100px;
+  background-image: url(../img/main/manicure/back_one.png);
+  height: 540px;
+  width: 530px;
+}
+
+.manicure-text {
+  margin-top: 300px;
+}
+
+.manicure-title {
+  font-size: 48px;
+  color: #ffffff;
+}
+
+.hand {
+  position: absolute;
+  margin-left: 30%;
+  background-image: no-repeat;
+}
+
+.button {
+  margin-top: 40px;
+  margin-left: 70px;
+}
+
+.manicure-btn {
+  background: #ffffff;
+
+  width: 380px;
+  height: 85px;
+
+  border: none;
+  border-radius: 50px;
+}
+
+.eye {
+  position: absolute;
+  margin-left: 30%;
+  background-image: no-repeat;
+}
+
+.eyelashes {
+  margin-top: 100px;
+  background-image: url(../img/main/manicure/back_two.png);
+  height: 540px;
+  width: 540px;
+}
+
+.eye-text {
+  margin-top: 250px;
+}
+
+.eye-title {
+  font-size: 48px;
+  color: #ffffff;
+}
+/* FOOTER */
+
+.footer_h {
+  font-size: 14px;
+  line-height: 1.8;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.li_list {
+  font-size: 12px;
+  line-height: 1.6;
+
+  color: #000000;
+  margin-left: -35px;
+  margin-bottom: 10px;
+}
+
+.footer_img_pay {
+  margin-right: 10px;
+}
+
+.footer_logo {
+  margin-top: 5%;
+}
